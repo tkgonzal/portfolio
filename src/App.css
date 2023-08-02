@@ -1,0 +1,39 @@
+.container {
+  width: 60vw;
+  /* border: 1px dotted red; */
+}
+
+.main-row {
+  display: flex;
+}
+
+main {
+  width: 75%;
+  margin: .5rem;
+  border: 1px dotted red;
+}
+
+/* Misc. Elements */
+.title {
+  border: 1px dotted red;
+}
+
+/* Large Screen Breakpoints */
+@media (max-width: 1080px) {
+  .container {
+    width: 80vw;
+  }
+}
+
+/* Medium Screen Breakpoints */
+@media (max-width: 800px) {
+  .container {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 610px) {
+  .container {
+    width: 100%;
+  }
+}

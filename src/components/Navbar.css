@@ -1,0 +1,13 @@
+nav {
+    border: 1px dotted red;
+    width: 25%;
+    margin: .5rem;
+}
+
+.nav--links, .nav--about-links {
+    /* padding-left: 1.4rem; */
+}
+
+.nav--links li {
+    /* padding-left: 0; */
+}

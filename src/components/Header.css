@@ -1,0 +1,7 @@
+header {
+    border: 1px dotted red;
+}
+
+.header--title {
+    text-align: center;
+}
