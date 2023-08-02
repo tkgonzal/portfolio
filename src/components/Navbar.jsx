@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 import "./Navbar.css"
 
 function Navbar() {
@@ -5,17 +7,17 @@ function Navbar() {
         <nav>
             <div className="title">Nav</div>
             <ul className="nav--links">
-                <li>Home</li>
+                <li><Link to="/">Home</Link></li>
                 <li>About</li>
                 <ul className="nav--about-links">
-                    <li>About Me</li>
-                    <li>Interests</li>
+                    <li><Link to="/about">About Me</Link></li>
+                    <li><Link to="/interests">Interests</Link></li>
                 </ul>
-                <li>Portfolio</li>
-                <li>Credits</li>
+                <li><Link to="/projects">Projects</Link></li>
+                <li><Link to="/credits">Credits</Link></li>
             </ul>
         </nav>
     )
 }
 
-export default Navbar;
+export default Navbar

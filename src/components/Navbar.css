@@ -5,9 +5,9 @@ nav {
 }
 
 .nav--links, .nav--about-links {
-    /* padding-left: 1.4rem; */
+    padding-left: 1.4rem;
 }
 
 .nav--links li {
-    /* padding-left: 0; */
+    padding-left: 0;
 }
