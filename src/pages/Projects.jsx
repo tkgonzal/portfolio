@@ -1,7 +1,7 @@
 function Projects() {
     return (
         <>
-            This is where the projects go
+            <div className="title">Projects</div>
         </>
     )
 }
