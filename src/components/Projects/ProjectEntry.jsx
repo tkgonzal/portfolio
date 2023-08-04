@@ -31,22 +31,23 @@ function ProjectEntry({ project }) {
                 alt={project.title} 
                 className="pe--demo" 
             />
-            <h2>{project.title}</h2>
-            <h3>{project.subtitle}</h3>
-            <ul className="pe--links">
-                {linkLis}
-            </ul>
-            <hr />
-            <p>{project.description}</p>
-            <hr />
-            <ul className="pe--details">
-                {workDetailsLis}
-            </ul>
-            <hr />
-            <ul className="pe--tech-stack">
-                {techStackLis}
-            </ul>
-
+            <div className="pe--info">
+                <h2>{project.title}</h2>
+                <h3>{project.subtitle}</h3>
+                <ul className="pe--links">
+                    {linkLis}
+                </ul>
+                <hr />
+                <p>{project.description}</p>
+                <hr />
+                <ul className="pe--details">
+                    {workDetailsLis}
+                </ul>
+                <hr />
+                <ul className="pe--tech-stack">
+                    {techStackLis}
+                </ul>
+            </div>
         </div>
     )
 }
