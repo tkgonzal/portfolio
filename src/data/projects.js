@@ -7,6 +7,7 @@ import pathfinderToolsDemoImg from "../assets/projects/pathfinder-tools-demo-img
 const projects = [
     {
         id: 1,
+        slug: "echobox",
         title: "EchoBox",
         subtitle: "A playlist aggregator",
         description: `An app that allows the user to listen to their Spotify
@@ -38,6 +39,7 @@ const projects = [
     },
     {
         id: 2,
+        slug: "billy",
         title: "Billy",
         subtitle: "A backlog manager",
         description: `A backlog manager for tracking user progress of 
@@ -61,6 +63,7 @@ const projects = [
     },
     {
         id: 5,
+        slug: "pathfinder-tools",
         title: "Pathfinder Tools",
         subtitle: "Tools to Make Game Mastery Easy",
         description: `A website providing users tools to assist in playing the game
@@ -69,7 +72,7 @@ const projects = [
         demoImg: pathfinderToolsDemoImg,
         links: [
             {
-                text: "Site Host",
+                text: "Site",
                 href: "https://zippy-centaur-b2c838.netlify.app/"
             },
             {
@@ -92,6 +95,7 @@ const projects = [
     },
     {
         id: 3,
+        slug: "shiritori",
         title: "Shiritori",
         subtitle: "An English variant of the Japanese word game",
         description: `A command line implementation of an English variant of the 
@@ -116,6 +120,7 @@ const projects = [
     },
     {
         id: 4,
+        slug: "141os",
         title: "141 OS",
         subtitle: "A simple operating system simulator",
         description: `A rudimentary OS simulator meant to demonstrate an 

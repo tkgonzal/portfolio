@@ -25,7 +25,7 @@ function ProjectEntry({ project }) {
     )
 
     return (
-        <div className="project-entry">
+        <div className="project-entry" id={project.slug}>
             <img 
                 src={project.demoImg} 
                 alt={project.title} 

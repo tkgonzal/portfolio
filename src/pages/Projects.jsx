@@ -10,9 +10,26 @@ function Projects() {
         />    
     )
 
+    const projectDirectoryContent = projects.map(project =>
+        <li>
+            <a href={`#${project.slug}`}>
+                {project.title}
+            </a>
+        </li>
+    )
+
     return (
         <>
             <div className="title">Projects</div>
+            <h1>Whippin in the Kitchen</h1>
+            <p className="projects--blurb">
+                An assortment of projects
+            </p>
+            <h2 className="projects--header">Table of Contents</h2>
+            <ul>
+                {projectDirectoryContent}
+            </ul>
+            <h2>Projects</h2>
             {projectEntries}
         </>
     )
