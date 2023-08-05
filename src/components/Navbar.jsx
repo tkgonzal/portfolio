@@ -5,7 +5,7 @@ import "./Navbar.css"
 function Navbar() {
     return (
         <nav>
-            <div className="title">Directory</div>
+            <div className="title">Navbar</div>
             <ul className="nav--links">
                 <li><Link to="/">Home</Link></li>
                 <li className="nav--section-header">About</li>

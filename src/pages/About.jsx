@@ -3,7 +3,6 @@ import "./About.css"
 function About() {
     return (
         <>
-            <div className="title">About</div>
             <h1>It's a Me</h1>
             <p className="about--blurb">
                 I'm Traven, and I'm a fullstack developer, currently looking for

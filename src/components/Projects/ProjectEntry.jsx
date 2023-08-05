@@ -2,7 +2,7 @@ import "./ProjectEntry.css"
 
 function ProjectEntry({ project }) {
     const linkLis = project.links.map(link =>
-        <li>
+        <li key={link.href}>
             <a 
                 href={link.href}
                 target="_blank"
@@ -13,13 +13,13 @@ function ProjectEntry({ project }) {
     )
 
     const workDetailsLis = project.details.map(detail => 
-        <li>
+        <li key={detail}>
             {detail}
         </li>    
     )
 
     const techStackLis = project.techStack.map(tech => 
-        <li>
+        <li key={tech}>
             {tech}
         </li>    
     )

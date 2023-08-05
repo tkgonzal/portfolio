@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes, useLocation } from "react-router-dom"
 
 import Header from "./components/Header.jsx"
 import Navbar from "./components/Navbar.jsx"
@@ -12,12 +12,29 @@ import Credits from "./pages/Credits.jsx"
 import "./App.css"
 
 function App() {
+  const location = useLocation()
+
+  const getPageTitle = () => {
+    const path = location.pathname
+
+    if (path === "/") {
+      return "Home"
+    }
+
+    const baseTitle = path.substring(1)
+    const processedTitle = baseTitle.at(0).toUpperCase() +
+      baseTitle.substring(1)
+
+    return processedTitle
+  }
+
   return (
     <div className="container">
       <Header />
       <div className="main-row">
         <Navbar />
         <main>
+          <div className="title">{getPageTitle()}</div>
           <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/about" element={<About />}/>

@@ -37,6 +37,7 @@
     width: 90%;
     margin-left: 10%;
     column-gap: 1.5rem;
+    margin-top: .3rem;
 }
 
 .pe--links, .pe--tech-stack {

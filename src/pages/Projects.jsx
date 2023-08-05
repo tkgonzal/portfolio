@@ -11,7 +11,9 @@ function Projects() {
     )
 
     const projectDirectoryContent = projects.map(project =>
-        <li>
+        <li
+            key={project.id}
+        >
             <a href={`#${project.slug}`}>
                 {project.title}
             </a>
@@ -20,7 +22,6 @@ function Projects() {
 
     return (
         <>
-            <div className="title">Projects</div>
             <h1>Whippin in the Kitchen</h1>
             <p className="projects--blurb">
                 An assortment of projects

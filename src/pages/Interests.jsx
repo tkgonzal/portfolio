@@ -1,7 +1,8 @@
+import "./Interests.css"
+
 function Interests() {
     return (
         <>
-            <div className="title">Interests</div>
             <h1>A Few of my Most Favourite Things</h1>
             <p className="interests--blurb">
                 I'm a worldly guy with some worldly tastes. Take a quick
@@ -32,7 +33,7 @@ function Interests() {
                 into the hobby but my current daily driver is a:
             </p>
             <h3 className="interests--subheader">QK60</h3>
-            <ul>
+            <ul className="interests--bullet-points">
                 <li>QwertyKeys 60 in HHKB</li>
                 <li>CanonKeys Neapolitan Switches</li>
                 <ul>
@@ -46,16 +47,6 @@ function Interests() {
                 </ul>
                 <li>Cherry Spellbook Keycaps</li>
             </ul>
-            
-            <h2 className="interests--header">Games</h2>
-            <p className="interests--blurb">
-                Games are arguably the reason I became interested in
-                Computer Science in the first place. Some of my favourite
-                video games include Persona 3 Portable, Mother 3, and
-                Undertale. Haven't had the time to play video games 
-                much as of late, but this year I've recently gotten into
-                and have been obssessed with the TTRPG Pathfinder 2e.
-            </p>
         </>
     )
 }

@@ -1,7 +1,6 @@
 function Home() {
     return (
         <>
-            <div className="title">Home</div>
             <h1>Welcome to my Dark and Twisted Mind</h1>
             <p className="home--blurb">
                 Welcome to my home grown, farm to table, DIY portfolio site.
