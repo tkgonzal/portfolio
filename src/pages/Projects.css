@@ -1,0 +1,21 @@
+.projects--directory {
+    margin-top: .3rem;
+}
+
+.projects--top {
+    display: flex;
+    margin: 1rem 0rem;
+}
+
+.projects--blurb {
+    padding: .3rem 1rem;
+}
+
+.projects--table-of-contents {
+    outline: 0.125rem dotted red;
+    padding: .5rem;
+}
+
+.projects--header {
+    margin: .3rem 0rem;
+}

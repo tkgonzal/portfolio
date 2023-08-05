@@ -7,6 +7,10 @@
   display: flex;
 }
 
+.page-content {
+  padding: 0.5rem 1rem;
+}
+
 main {
   width: 75%;
   margin: .5rem;
@@ -15,6 +19,7 @@ main {
 
 /* Misc. Elements */
 .title {
+  padding-left: .5rem;
   border: 1px dotted red;
 }
 

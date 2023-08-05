@@ -28,6 +28,10 @@
     margin: 0;
 }
 
+.about--bullet-points {
+    margin-top: .3rem;
+}
+
 /* Targetting the date of the name date */
 .about--name-date em {
     text-align: right;

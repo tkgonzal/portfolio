@@ -35,13 +35,15 @@ function App() {
         <Navbar />
         <main>
           <div className="title">{getPageTitle()}</div>
-          <Routes>
-            <Route path="/" element={<Home />}/>
-            <Route path="/about" element={<About />}/>
-            <Route path="/interests" element={<Interests />}/>
-            <Route path="/projects" element={<Projects />}/>
-            <Route path="/credits" element={<Credits />}/>
-          </Routes>
+          <div className="page-content">
+            <Routes>
+              <Route path="/" element={<Home />}/>
+              <Route path="/about" element={<About />}/>
+              <Route path="/interests" element={<Interests />}/>
+              <Route path="/projects" element={<Projects />}/>
+              <Route path="/credits" element={<Credits />}/>
+            </Routes>
+          </div>
         </main>
       </div>
     </div>
