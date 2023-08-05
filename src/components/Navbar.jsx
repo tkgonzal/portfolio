@@ -5,10 +5,10 @@ import "./Navbar.css"
 function Navbar() {
     return (
         <nav>
-            <div className="title">Nav</div>
+            <div className="title">Directory</div>
             <ul className="nav--links">
                 <li><Link to="/">Home</Link></li>
-                <li>About</li>
+                <li className="nav--section-header">About</li>
                 <ul className="nav--about-links">
                     <li><Link to="/about">About Me</Link></li>
                     <li><Link to="/interests">Interests</Link></li>

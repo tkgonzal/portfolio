@@ -10,7 +10,7 @@
 main {
   width: 75%;
   margin: .5rem;
-  border: 1px dotted red;
+  outline: 1px dotted red;
 }
 
 /* Misc. Elements */
@@ -18,22 +18,34 @@ main {
   border: 1px dotted red;
 }
 
-/* Large Screen Breakpoints */
+/* Large Screen Breakpoint */
 @media (max-width: 1080px) {
   .container {
     width: 80vw;
   }
 }
 
-/* Medium Screen Breakpoints */
+/* Medium Screen Breakpoint */
 @media (max-width: 800px) {
   .container {
     width: 90vw;
   }
 }
 
+/* Small Screen Breakpoint */
 @media (max-width: 610px) {
   .container {
     width: 100%;
+  }
+
+  .main-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    width: 100%;
+    margin: 0;
+    margin-top: 0.5rem;
   }
 }
