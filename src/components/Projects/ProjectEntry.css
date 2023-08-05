@@ -22,8 +22,8 @@
     /* list-style: none; */
 }
 
-/* Medium Screen Breakpoints */
-@media (max-width: 800px) {
+/* Larger Screen Breakpoint */
+@media (max-width: 1400px) {
     .project-entry {
         display: block;
     }
