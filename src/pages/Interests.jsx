@@ -1,4 +1,6 @@
-import Topsters from "../components/Interests/Topsters"
+import Topsters from "../components/Interests/Topsters.jsx"
+
+import albums from "../data/Interests/albums.js"
 
 import "./Interests.css"
 
@@ -17,9 +19,12 @@ function Interests() {
                 Music is probably the thing I'm most invested in. I try to
                 listen to a lot of music but my favourite genres are Hip-Hop 
                 and Midwest Emo. Some of my favourite artists include JPEGMAFIA,
-                mom jeans., 100 Gecs, and D'Angelo.
+                mom jeans., 100 Gecs, and D'Angelo. Check out my current 
+                rotation: 
             </p>
-            <Topsters />
+            <Topsters
+                albums={albums}
+            />
 
             <h2 className="interests--header">Art</h2>
             <p className="interests--blurb">

@@ -1,12 +1,78 @@
 :root {
     --topsters-bg-color: #000;
     --topsters-text-color: #fff;
+    --topsters-font: "Ubuntu Mono"
 }
 
 .topsters {
     width: 80%;
-    height: 5rem;
     background-color: var(--topsters-bg-color, black);
     color: var(--topsters-text-color, white);
     margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+}
+
+.topsters--album-imgs {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    align-items: center;
+}
+
+.topsters--album-imgs img {
+    transition: transform 0.5s;
+    width: 100%;
+}
+
+.topsters--album-imgs img:hover {
+    transform: scale(1.1);
+}
+
+.topsters--album-titles {
+    width: 30%;
+    margin: 0;
+    padding-left: .5rem;
+    list-style: none;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: .65rem;
+}
+
+.topsters--album-titles a {
+    color: var(--topsters-text-color, white);
+    text-decoration: none;
+    margin: .5rem 0;
+}
+
+.topsters--album-titles a:hover {
+    text-decoration: underline;
+}
+
+/* To put space between each row of album titles */
+.topsters--album-titles li:nth-child(2) {
+    margin-bottom: 1rem;
+}
+
+/* Medium Screen Breakpoint */
+@media (max-width: 800px) {
+    .topsters--album-imgs {
+        width: 60%;
+        gap: .3rem;
+    }
+
+    .topsters--album-titles {
+        width: 40%;
+    }
+}
+
+/* Small Screen Breakpoint */
+@media (max-width: 610px) {
+    .topsters {
+        width: 90%;
+    }
+
+    .topsters--album-titles {
+        font-size: .85rem;
+    }
 }
