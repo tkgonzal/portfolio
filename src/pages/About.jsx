@@ -20,6 +20,8 @@ function About() {
             </ul>
             <h3 className="about--subheader">Other Technologies</h3>
             <ul className="about--skills">
+                <li>Windows</li>
+                <li>Linux/UNIX</li>
                 <li>SQL</li>
                 <li>Node.js</li>
                 <li>React</li>

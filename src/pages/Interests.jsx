@@ -1,3 +1,5 @@
+import Topsters from "../components/Interests/Topsters"
+
 import "./Interests.css"
 
 function Interests() {
@@ -17,6 +19,7 @@ function Interests() {
                 and Midwest Emo. Some of my favourite artists include JPEGMAFIA,
                 mom jeans., 100 Gecs, and D'Angelo.
             </p>
+            <Topsters />
 
             <h2 className="interests--header">Art</h2>
             <p className="interests--blurb">

@@ -1,0 +1,12 @@
+:root {
+    --topsters-bg-color: #000;
+    --topsters-text-color: #fff;
+}
+
+.topsters {
+    width: 80%;
+    height: 5rem;
+    background-color: var(--topsters-bg-color, black);
+    color: var(--topsters-text-color, white);
+    margin: 0 auto;
+}
