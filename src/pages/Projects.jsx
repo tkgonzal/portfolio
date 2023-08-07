@@ -1,6 +1,6 @@
 import ProjectEntry from "../components/Projects/ProjectEntry.jsx"
 
-import projects from "../data/projects.js"
+import projects from "../data/Projects/projects.js"
 
 import "./Projects.css"
 

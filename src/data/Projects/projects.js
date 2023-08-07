@@ -1,8 +1,8 @@
-import echoBoxDemoImg from "../assets/projects/echobox-demo-img.png";
-import billyDemoImg from "../assets/projects/billy-demo-img.png";
-import shiritoriDemoImg from "../assets/projects/shiritori-demo-img.png";
-import os141DemoImg from "../assets/projects/141os-demo-img.png";
-import pathfinderToolsDemoImg from "../assets/projects/pathfinder-tools-demo-img.png";
+import echoBoxDemoImg from "../../assets/projects/echobox-demo-img.png";
+import billyDemoImg from "../../assets/projects/billy-demo-img.png";
+import shiritoriDemoImg from "../../assets/projects/shiritori-demo-img.png";
+import os141DemoImg from "../../assets/projects/141os-demo-img.png";
+import pathfinderToolsDemoImg from "../../assets/projects/pathfinder-tools-demo-img.png";
 
 const projects = [
     {

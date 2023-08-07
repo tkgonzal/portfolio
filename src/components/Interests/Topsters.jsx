@@ -1,6 +1,6 @@
 import "./Topsters.css"
 
-function Topsters() {
+function Topsters({ albums }) {
     return (
         <div className="topsters">
             <div className="topsters--album-imgs">
