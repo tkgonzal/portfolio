@@ -1,7 +1,7 @@
 function Home() {
     return (
         <>
-            <h1>Welcome to my Dark and Twisted Mind</h1>
+            <h1>Come One, Come All to This Tragic Affair</h1>
             <p className="home--blurb">
                 Welcome to my home grown, farm to table, DIY portfolio site.
                 Take a look around to learn more about me and some of the 

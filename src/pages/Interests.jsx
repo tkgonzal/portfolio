@@ -3,7 +3,7 @@ import "./Interests.css"
 function Interests() {
     return (
         <>
-            <h1>A Few of my Most Favourite Things</h1>
+            <h1>A Few More my Most Favourite Things</h1>
             <p className="interests--blurb">
                 I'm a worldly guy with some worldly tastes. Take a quick
                 peep at some things I like.

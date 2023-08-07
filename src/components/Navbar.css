@@ -10,6 +10,7 @@ nav {
 
 .nav--links li {
     padding-left: 0;
+    white-space: nowrap;
 }
 
 @media (max-width: 610px) {
@@ -23,10 +24,14 @@ nav {
         display: none;
     }
 
+    .nav--about-links {
+        padding-left: 0rem;
+    }
+
     .nav--links, .nav--about-links {
         display: flex;
         justify-content: center;
-        gap: 1.5rem;
-        padding-left: 0;
+        column-gap: 1.5rem;
+        flex-wrap: wrap;
     }
 }

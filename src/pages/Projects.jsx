@@ -24,7 +24,7 @@ function Projects() {
 
     return (
         <>
-            <h1>Whippin in the Kitchen</h1>
+            <h1>Wake Up and Make Stuff</h1>
             <div className="projects--top">
                 <div className="projects--table-of-contents">
                     <h2 className="projects--header">
