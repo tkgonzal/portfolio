@@ -1,6 +1,8 @@
 import Topsters from "../components/Interests/Topsters.jsx"
+import Gallery from "../components/Interests/Gallery.jsx"
 
 import albums from "../data/Interests/albums.js"
+import doodles from "../data/Interests/doodles.js"
 
 import keebImg from "../assets/keeb-daily-driver.jpg"
 
@@ -32,8 +34,11 @@ function Interests() {
             <p className="interests--blurb">
                 In my free time I'm a hobby artist, though nowadays I tend to 
                 appreciate art more often than make it. Here's a very minimal
-                gallery of pieces I've made.
+                gallery of some recent pieces I've made.
             </p>
+            <Gallery 
+                doodles={doodles}
+            />
 
             <h2 className="interests--header">Custom Keyboards</h2>
             <p className="interests--blurb">
@@ -65,7 +70,7 @@ function Interests() {
                     className="."
                     src={keebImg} 
                     alt="A QK60 in HHKB"
-                    title="My keeb hehe"
+                    title="The keeb in question"
                 />
             </div>
         </>

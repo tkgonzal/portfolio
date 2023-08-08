@@ -1,0 +1,14 @@
+.gallery {
+    margin: 0 auto;
+    width: 90%;
+    max-height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow-y: auto;
+    column-gap: .5rem;
+}
+
+.gallery img {
+    width: 100%;
+}

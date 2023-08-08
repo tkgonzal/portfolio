@@ -1,8 +1,8 @@
-import doubleTrioImg from "../../assets/albums/double-trio.jpg"
-import whitePonyImg from "../../assets/albums/white-pony.jpg"
+import doubleTrioImg from "../../assets/albums/double-trio.jpg";
+import whitePonyImg from "../../assets/albums/white-pony.jpg";
 import psychokineticLoveSongsImg 
-    from "../../assets/albums/psychokinetic-love-songs.jpg"
-import blackMessiahImg from "../../assets/albums/black-messiah.jpg"
+    from "../../assets/albums/psychokinetic-love-songs.jpg";
+import blackMessiahImg from "../../assets/albums/black-messiah.jpg";
 
 const albums = [
     {
@@ -33,6 +33,6 @@ const albums = [
         artist: "D'Angelo and The Vanguard",
         href: "https://www.youtube.com/playlist?list=PLDlzaWMepRBfViKfEfUwg_DZuQF6A4e6l"
     }
-]
+];
 
-export default albums
+export default albums;
