@@ -36,3 +36,7 @@
 .about--name-date em {
     text-align: right;
 }
+
+.date {
+    white-space: nowrap;
+}

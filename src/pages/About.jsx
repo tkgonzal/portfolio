@@ -44,7 +44,7 @@ function About() {
                 <h3 className="about--subheader">
                     Bay Valley Tech, Web Development Intern
                 </h3>
-                <em>Apr 2023 - Pres</em>
+                <em><span className="date">Apr 2023</span> - Pres</em>
             </span>
             <ul className="about--bullet-points">
                 <li>
@@ -62,7 +62,10 @@ function About() {
                 <h3 className="about--subheader">
                     University of California, Irvine
                 </h3>
-                <em>Sep 2017 - Mar 2021</em>
+                <em>
+                    <span className="date">
+                        Sep 2017
+                    </span> - <span className="date">Mar 2021</span></em>
             </span>
             <ul className="about--bullet-points">
                 <li>B.S. in Computer Science</li>

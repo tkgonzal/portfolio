@@ -33,6 +33,10 @@
         flex-direction: column-reverse;
     }
 
+    .interests--subheader {
+        margin-top: 0.5rem;
+    }
+
     .interests--keeb-details .interests--keeb-info,
     .interests--keeb-details img {
         width: 100%

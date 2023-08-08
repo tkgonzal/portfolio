@@ -25,7 +25,7 @@ function Topsters({ albums }) {
     )
 
     const albumTitles = albums.map(album => 
-        <li>
+        <li key={album.id}>
             <a
                 href={album.href}
                 target="_blank"
