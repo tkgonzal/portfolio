@@ -29,6 +29,7 @@ function ProjectEntry({ project }) {
             <img 
                 src={project.demoImg} 
                 alt={project.title} 
+                title={project.title}
                 className="pe--demo" 
             />
             <div className="pe--info">

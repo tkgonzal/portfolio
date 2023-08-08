@@ -24,7 +24,7 @@ function Interests() {
                 listen to a lot of music but my favourite genres are Hip-Hop 
                 and Midwest Emo. Some of my favourite artists include JPEGMAFIA,
                 mom jeans., 100 Gecs, and D'Angelo. Check out my current 
-                rotation: 
+                rotation (it's interactive!): 
             </p>
             <Topsters
                 albums={albums}

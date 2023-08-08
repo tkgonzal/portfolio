@@ -10,9 +10,10 @@ function Home() {
             <p className="home--blurb">
                 This site's aesthetic is largely inspired by the Y2K aesthetic,
                 namely how sites were designed around that time. I have a fondness
-                for the style, so this portfolio is my attempt at trying to 
-                achieve that look using modern front end techniques, namely
-                with React and React-Router.
+                for the style of early anime and video game blogs and fan forums, 
+                so this portfolio is my attempt at trying to achieve that 
+                look using modern front end techniques, namely with React and 
+                React-Router.
             </p>
         </>
     )

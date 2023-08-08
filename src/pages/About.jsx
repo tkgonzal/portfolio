@@ -16,8 +16,8 @@ function About() {
                 <li>C/C++</li>
                 <li>Java</li>
                 <li>JavaScript</li>
-                <li>HTML/CSS</li>
                 <li>SQL</li>
+                <li>HTML/CSS</li>
             </ul>
             <h3 className="about--subheader">Other Technologies</h3>
             <ul className="about--skills">
@@ -48,12 +48,19 @@ function About() {
             </span>
             <ul className="about--bullet-points">
                 <li>
-                    Worked in a team to develop several web apps using the
-                    MERN stack, heavily utilizing React and Node.js
+                    Worked in a team to develop several web applications 
+                    using the MERN stack, heavily utilizing React and Node.js
+                    to create efficient and user friendly programs
                 </li>
                 <li>
-                    Developed under Agile Methodology with Trello and 
-                    GitHub Projects
+                    Applied Agile Methodology in work with Trello and 
+                    GitHub Projects to streamline team's development
+                    process
+                </li>
+                <li>
+                    Communicated and advised with applicants to Bay Valley Tech
+                    in order to improve company outreach and provide assistance
+                    as needed
                 </li>
             </ul>
 
