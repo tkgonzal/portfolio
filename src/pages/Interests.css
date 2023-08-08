@@ -2,6 +2,39 @@
     margin-bottom: .3rem;
 }
 
+.interests--subheader {
+    margin-top: 0;
+}
+
 .interests--blurb, .interests--bullet-points {
     margin-top: .3rem;
+}
+
+.interests--bullet-points {
+    padding-left: 1.1rem;
+}
+
+.interests--keeb-details {
+    display: flex;
+    align-items: center;
+}
+
+.interests--keeb-details .interests--keeb-info {
+    width: 30%
+}
+
+.interests--keeb-details img {
+    width: 70%;
+}
+
+/* Very Large Screen Breakpoint */
+@media (max-width: 1400px) {
+    .interests--keeb-details {
+        flex-direction: column-reverse;
+    }
+
+    .interests--keeb-details .interests--keeb-info,
+    .interests--keeb-details img {
+        width: 100%
+    }
 }

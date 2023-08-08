@@ -2,6 +2,8 @@ import Topsters from "../components/Interests/Topsters.jsx"
 
 import albums from "../data/Interests/albums.js"
 
+import keebImg from "../assets/keeb-daily-driver.jpg"
+
 import "./Interests.css"
 
 function Interests() {
@@ -40,21 +42,32 @@ function Interests() {
                 drain my wallet. I've built quite a few boards since getting 
                 into the hobby but my current daily driver is a:
             </p>
-            <h3 className="interests--subheader">QK60</h3>
-            <ul className="interests--bullet-points">
-                <li>QwertyKeys 60 in HHKB</li>
-                <li>CanonKeys Neapolitan Switches</li>
-                <ul>
-                    <li>Lubed with Tribosys 3203</li>
-                    <li>Filmed with Deskeys Film</li>
-                </ul>
-                <li>AEBoards Staebies V2.1 Stabilizers</li>
-                <ul>
-                    <li>Lubed with Krytox 205g0</li>
-                    <li>Wires lubed with Dielectric Grease</li>
-                </ul>
-                <li>Cherry Spellbook Keycaps</li>
-            </ul>
+            <div className="interests--keeb-details">
+                <div className="interests--keeb-info">
+                    <h3 className="interests--subheader">QK60</h3>
+                    <ul className="interests--bullet-points">
+                        <li>QwertyKeys 60 in HHKB</li>
+                        <li>CanonKeys Neapolitan Switches</li>
+                        <ul>
+                            <li>Lubed with Tribosys 3203</li>
+                            <li>Filmed with Deskeys Film</li>
+                        </ul>
+                        <li>AEBoards Staebies V2.1 Stabilizers</li>
+                        <ul>
+                            <li>Lubed with Krytox 205g0</li>
+                            <li>Wires lubed with Dielectric Grease</li>
+                        </ul>
+                        <li>Cherry Spellbook Keycaps</li>
+                    </ul>
+                </div>
+                
+                <img
+                    className="."
+                    src={keebImg} 
+                    alt="A QK60 in HHKB"
+                    title="My keeb hehe"
+                />
+            </div>
         </>
     )
 }

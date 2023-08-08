@@ -1,7 +1,7 @@
 import "./Topsters.css"
 
 function Topsters({ albums }) {
-    const COLS = 2
+    const COLS = 2 // Denotes the amount of albums per row of the Topster
     const GAP_SZ = .5  // In rem
 
     const albumSizing = {
