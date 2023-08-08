@@ -3,7 +3,7 @@ import "./About.css"
 function About() {
     return (
         <>
-            <h1>It's a Me</h1>
+            <h1>It's Me</h1>
             <p className="about--blurb">
                 I'm Traven, and I'm a fullstack developer, currently looking for
                 software engineering/web development work.
@@ -17,18 +17,18 @@ function About() {
                 <li>Java</li>
                 <li>JavaScript</li>
                 <li>HTML/CSS</li>
+                <li>SQL</li>
             </ul>
             <h3 className="about--subheader">Other Technologies</h3>
             <ul className="about--skills">
-                <li>Windows</li>
-                <li>Linux/UNIX</li>
-                <li>SQL</li>
                 <li>Node.js</li>
                 <li>React</li>
                 <li>React Router</li>
                 <li>Express</li>
                 <li>Bootstrap</li>
                 <li>Git/GitHub</li>
+                <li>Windows</li>
+                <li>Linux/UNIX</li>
             </ul>
             <h3 className="about--subheader">Soft Skills</h3>
             <ul className="about--skills">
