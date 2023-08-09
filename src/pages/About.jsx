@@ -1,13 +1,24 @@
+import portraitImg from "../assets/portrait.jpg"
+
 import "./About.css"
 
 function About() {
     return (
         <>
             <h1>It's Me</h1>
-            <p className="about--blurb">
-                I'm Traven, and I'm a fullstack developer, currently looking for
-                software engineering/web development work.
-            </p>
+            <div className="about--intro">
+                <img
+                    className="about--portrait"
+                    src={portraitImg} 
+                    alt="A picrew potrait of me"
+                    title="A portait of me made in pepperjacket's picrew pfp maker"
+                />
+
+                <p className="about--blurb">
+                    I'm Traven, and I'm a fullstack developer, currently looking for
+                    software engineering/web development work.
+                </p>
+            </div>
 
             <h2 className="about--header">Proficiences</h2>
             <h3 className="about--subheader">Languages</h3>

@@ -2,10 +2,26 @@
     margin-bottom: .2rem;
 }
 
+.about--intro {
+    display: flex;
+    margin-top: 0.3rem;
+}
+
+.about--portrait {
+    width: 40%;
+}
+
+.about--blurb {
+    width: 60%;
+    margin: 0;
+    padding-left: 1rem;
+}
+
 .about--subheader {
     margin-top: 0;
     margin-bottom: .4rem;
 }
+
 
 .about--skills {
     width: 95%;
@@ -39,4 +55,11 @@
 
 .date {
     white-space: nowrap;
+}
+
+/* Small/Mobile Breakpoint */
+@media (max-width: 610px) {
+    .about--portrait, .about--blurb {
+        width: 50%;
+    }
 }
