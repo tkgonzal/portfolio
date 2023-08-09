@@ -17,7 +17,7 @@ function Home() {
                 programming work I've done.
             </p>
 
-            <h2>Check these out!</h2>
+            <h2 className="home--subheader">Check these out!</h2>
             <div className="home--portfolio-link-row">
                 <div className="home--portfolio-link-container">
                     <PortfolioLink

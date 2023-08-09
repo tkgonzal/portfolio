@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 import portraitImg from "../assets/portrait.jpg"
 
 import "./About.css"
@@ -14,10 +16,15 @@ function About() {
                     title="A portait of me made in pepperjacket's picrew pfp maker"
                 />
 
-                <p className="about--blurb">
-                    I'm Traven, and I'm a fullstack developer, currently looking for
-                    software engineering/web development work.
-                </p>
+                <div className="about--intro-text">
+                    <p className="about--blurb">
+                        I'm Traven, and I'm a fullstack developer, currently looking for
+                        software engineering/web development work. Read below to 
+                        check up on some of my credentials, 
+                        and <Link to="/projects">click here</Link> to see 
+                        some of my projects.
+                    </p>
+                </div>
             </div>
 
             <h2 className="about--header">Proficiences</h2>

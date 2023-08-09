@@ -11,8 +11,12 @@
     width: 40%;
 }
 
-.about--blurb {
+.about--intro-text {
     width: 60%;
+    margin: 0;
+}
+
+.about--blurb {
     margin: 0;
     padding-left: 1rem;
 }
@@ -59,7 +63,7 @@
 
 /* Small/Mobile Breakpoint */
 @media (max-width: 610px) {
-    .about--portrait, .about--blurb {
+    .about--portrait, .about--intro-text {
         width: 50%;
     }
 }
