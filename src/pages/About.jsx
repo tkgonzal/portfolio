@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom"
 
+import Socials from "../components/About/Socials"
+
+import socialsData from "../data/About/socials"
+
 import portraitImg from "../assets/portrait.jpg"
-import linkedInImg from "../assets/socials/linkedin.svg"
-import gitHubImg from "../assets/socials/square-github.svg"
 
 import "./About.css"
 
@@ -23,36 +25,13 @@ function About() {
                         I'm Traven, and I'm a fullstack developer, currently looking for
                         software engineering/web development work. Read below to 
                         check up on some of my credentials, 
-                        and <Link to="/projects">click here</Link> to see 
+                        and <Link to="/projects">click here</Link> to peruse
                         some of my projects.
                     </p>
-                    <div className="about--socials-row">
-                        <h2>Socials:</h2>
-                        <ul>
-                            <li>
-                                <a 
-                                    href="https://www.linkedin.com/in/traven-gonzales-318a96175/"
-                                    target="_blank"
-                                >
-                                    <img
-                                        src={linkedInImg}
-                                        alt="LinkedIn"
-                                    />
-                                </a>
-                            </li>
-                            <li>
-                                <a 
-                                    href="https://github.com/tkgonzal"
-                                    target="_blank"
-                                >
-                                    <img
-                                        src={gitHubImg}
-                                        alt="GitHub"
-                                    />
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+
+                    <Socials
+                        socialsData={socialsData}
+                    />
                 </div>
             </div>
 
