@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom"
 
 import portraitImg from "../assets/portrait.jpg"
+import linkedInImg from "../assets/socials/linkedin.svg"
+import gitHubImg from "../assets/socials/square-github.svg"
 
 import "./About.css"
 
@@ -24,8 +26,36 @@ function About() {
                         and <Link to="/projects">click here</Link> to see 
                         some of my projects.
                     </p>
+                    <div className="about--socials-row">
+                        <h2>Socials:</h2>
+                        <ul>
+                            <li>
+                                <a 
+                                    href="https://www.linkedin.com/in/traven-gonzales-318a96175/"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src={linkedInImg}
+                                        alt="LinkedIn"
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a 
+                                    href="https://github.com/tkgonzal"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src={gitHubImg}
+                                        alt="GitHub"
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+
 
             <h2 className="about--header">Proficiences</h2>
             <h3 className="about--subheader">Languages</h3>
