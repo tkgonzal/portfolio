@@ -2,6 +2,8 @@ import PortfolioLink from "../components/Home/PortfolioLink.jsx"
 
 import aboutImg from "../assets/portfolio-link-assets/about.png"
 import aboutHoverImg from "../assets/portfolio-link-assets/about-hover.png"
+import projectsImg from "../assets/portfolio-link-assets/projects.png"
+import projectsHoverImg from "../assets/portfolio-link-assets/projects-hover.png"
 
 import "./Home.css"
 
@@ -26,6 +28,12 @@ function Home() {
                     />
                 </div>
                 <div className="home--portfolio-link-container">
+                    <PortfolioLink
+                        img={projectsImg}
+                        imgHover={projectsHoverImg}
+                        href="/projects"
+                        text="Projects"
+                    />
                 </div>
             </div>
 
