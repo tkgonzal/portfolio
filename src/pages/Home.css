@@ -1,0 +1,10 @@
+.home--portfolio-link-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 3%;
+}
+
+.home--portfolio-link-container {
+    width: 40%;
+}

@@ -1,0 +1,18 @@
+.portfolio-link a {
+    text-decoration: none;
+}
+
+.pl--img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.pl--text {
+    margin: 0.3rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.pl--text:hover, .pl--img:hover ~ .pl--text {
+    text-decoration: underline;
+}

@@ -78,6 +78,7 @@ function About() {
                 <li>B.S. in Computer Science</li>
                 <li>Specialization in General Computer Science</li>
                 <li>Summa Cum Laude</li>
+                <li>Dean's Honor List (achieved during all quarters of attendance)</li>
             </ul>
         </>
     )
