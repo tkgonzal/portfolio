@@ -1,3 +1,4 @@
+// A collection of random lyrics I enjoy to display in the LyricsMarquee
 const lyrics = [
     "Why can't I see the sunspots in your eyes?",
     "Slip like Freudian, Your first and last step to playing yourself like accordian",

@@ -1,6 +1,6 @@
 :root {
-    --lyrics-marquee-bg-color: #16161d;
-    --lyrics-marquee-color: #fafafa;
+    --lyrics-marquee-bg-color: #e9d184;
+    --lyrics-marquee-color: #d49a1b;
 }
 
 .lyrics-marquee {
@@ -9,6 +9,7 @@
     overflow: hidden;
     background-color: var(--lyrics-marquee-bg-color,black);
     color: var(--lyrics-marquee-color, white);
+    font-family: "Arsenal", sans-serif;
     font-weight: 700;
     display: inline-block;
     padding: .3rem 0rem;
@@ -17,6 +18,8 @@
 .lyrics-marquee p {
     margin: 0;
     display: inline-block;
+    white-space: pre;
+    /* Opted to use useRef in the component to calculate animation time */
     /* animation: marquee 13s linear infinite; */
 }
 
