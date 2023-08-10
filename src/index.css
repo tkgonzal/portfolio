@@ -1,8 +1,8 @@
-:root {
-    /* --lg-screen-sz: 992px;
+/* :root {
+    --lg-screen-sz: 992px;
     --md-screen-sz: 768px;
-    --sm-screen-sz: 576px; */
-}
+    --sm-screen-sz: 576px;
+} */
 
 html {
     margin: 0;
@@ -19,6 +19,7 @@ body {
 #root {
     width: 100%;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: start;

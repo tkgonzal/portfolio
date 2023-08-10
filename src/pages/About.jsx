@@ -28,6 +28,7 @@ function About() {
                         and <Link to="/projects">click here</Link> to peruse
                         some of my projects.
                     </p>
+                    <hr />
 
                     <Socials
                         socialsData={socialsData}
