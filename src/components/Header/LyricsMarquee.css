@@ -1,0 +1,26 @@
+:root {
+    --lyrics-marquee-bg-color: #16161d;
+    --lyrics-marquee-color: #fafafa;
+}
+
+.lyrics-marquee {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: var(--lyrics-marquee-bg-color,black);
+    color: var(--lyrics-marquee-color, white);
+    font-weight: 700;
+    display: inline-block;
+    padding: .3rem 0rem;
+}
+
+.lyrics-marquee p {
+    margin: 0;
+    display: inline-block;
+    animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+}

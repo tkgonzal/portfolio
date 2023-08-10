@@ -2,7 +2,9 @@ import "./Socials.css"
 
 function Socials({ socialsData }) {
     const socialsLi = socialsData.map(social => 
-        <li>
+        <li
+            key={social.src}
+        >
             <a
                 href={social.href}
                 target="_blank"
