@@ -19,7 +19,7 @@ function Header() {
                     title="tkgonzal"
                 />
             </Link>
-            {/* <LyricsMarquee lyrics={lyrics} /> */}
+            <LyricsMarquee lyrics={lyrics} />
         </header>
     )
 }
