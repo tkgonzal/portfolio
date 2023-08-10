@@ -3,15 +3,17 @@
     --top-btn-color: #fafafa;
     --top-btn-opactity: 0.8;
     --top-btn-offset: 3rem;
+    --top-btn-width: 1.5rem;
 }
 
 .top-btn {
+    width: var(--top-btn-width, 2rem);
     background-color: var(--top-btn-bg-color, red);
     color: var(--top-btn-color, white);
     opacity: var(--top-btn-opactity, 0.5);
     text-decoration: none;
     font-size: 1rem;
-    padding: .3rem .5rem;
+    padding: .5rem .75rem;
     border-radius: .3rem;
     position: fixed;
     right: calc(20% - var(--top-btn-offset));
@@ -20,6 +22,7 @@
 
 .top-btn:hover {
     opacity: 1;
+    font-weight: 900;
 }
 
 /* Large Screen Breakpoint */

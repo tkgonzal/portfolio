@@ -1,5 +1,6 @@
 header {
-    border: 1px dotted red;
+    width: 100%;
+    outline: 1px dotted red;
 }
 
 .header--title {

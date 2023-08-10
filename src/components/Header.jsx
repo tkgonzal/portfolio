@@ -2,7 +2,7 @@ import "./Header.css"
 
 function Header() {
     return (
-        <header id="#">
+        <header>
             <h1 className="header--title">tkgonzal</h1>
         </header>
     )
