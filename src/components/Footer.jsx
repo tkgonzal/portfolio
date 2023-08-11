@@ -2,6 +2,10 @@ import "./Footer.css"
 
 import stamps from "../data/Footer/stamps.js"
 
+/**
+ * @returns {ReactElement} A footer for the website saying it was made by me,
+ * and also featuring a collection of stamps I like
+ */
 function Footer() {
     const stampImgs = stamps.map(stamp => 
         <img

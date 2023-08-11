@@ -16,7 +16,17 @@
     padding: .5rem .75rem;
     border-radius: .3rem;
     position: fixed;
+    /* 
+     * Right attribute determined by space consumed by the site's main
+     * container. (See App.css for these specific sizes at the various
+     * breakpoints)
+     */
     right: calc(20% - var(--top-btn-offset));
+    /* 
+     * Bottom implemented in component file as an exercise in using useRef to make
+     * the component exhibit sticky position behaviour while still applying
+     * the fixed position to it in css
+     */
     /* bottom: 1rem; */
 }
 

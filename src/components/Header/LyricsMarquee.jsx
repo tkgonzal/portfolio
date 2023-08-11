@@ -9,8 +9,8 @@ const LYRIC_TIME_INCREMENT_IN_SEC = 15
  * currently deprecated. This component is meant to emulate it using CSS
  * animation.
  * @param {Object} props A props object consisting of:
- * -lyrics {[string]} An array of lyrics to display in the marquee 
- * @returns 
+ * -lyrics {string[]} An array of lyrics to display in the marquee 
+ * @returns {ReactElement}
  */
 function LyricsMarquee({ lyrics }) {
     const marquee1Ref = useRef(null)
@@ -37,7 +37,7 @@ function LyricsMarquee({ lyrics }) {
             </p>
             {/* A second paragraph with the lyrics is made to trail the
                 original lyrics such that when the animation is about to end
-                and reset the illusion of a seamless loop is made */}
+                and reset, the illusion of a seamless loop is made */}
             <p ref={marquee2Ref}>
                 {processedLyrics}
             </p>

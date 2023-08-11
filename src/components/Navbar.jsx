@@ -2,6 +2,10 @@ import { Link } from "react-router-dom"
 
 import "./Navbar.css"
 
+/**
+ * @returns {ReactElement} The navbar for the website, linking them to 
+ * the different pages of the website
+ */
 function Navbar() {
     return (
         <nav>

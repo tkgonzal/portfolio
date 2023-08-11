@@ -4,6 +4,13 @@ import psychokineticLoveSongsImg
     from "../../assets/albums/psychokinetic-love-songs.jpg";
 import blackMessiahImg from "../../assets/albums/black-messiah.jpg";
 
+// Albums to display for the topster element
+// Each album object is structured with the following members:
+//  -id {Number} A number to specify for id (as if the data was from a db)
+//  -imgSrc {string} The filepath for the album's art
+//  -title {string} The name of the album
+//  -artist {string} The artist(s) who made the album
+//  -href {string} A link to where the user could listen to the album
 const albums = [
     {
         id: 0,

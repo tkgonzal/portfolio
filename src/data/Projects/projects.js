@@ -4,6 +4,24 @@ import shiritoriDemoImg from "../../assets/projects/shiritori-demo-img.png";
 import os141DemoImg from "../../assets/projects/141os-demo-img.png";
 import pathfinderToolsDemoImg from "../../assets/projects/pathfinder-tools-demo-img.png";
 
+// An array of information regarding projects I want to display on my portfolio.
+// Each project object contains
+//   -id {number} A number representing an id (as if the data were from a db)
+//   -slug {string} A string to use for the id of the project entry, such that
+//    the user can be linked and jumped to certain ProjectEntry's
+//   =title {string} The title of the project
+//   -subtitle {string} The subtitle of the project, to describe it succinctly
+//   -description {string} A more in depth description of the project
+//   -demoImg {string} An filepath for an image to use as the "thumbnail" of the
+//    project
+//   -links {Object} Links to more dedicated pages on the project. Each link object
+//    contains
+//         -text {string} The text to describe and represent the link
+//         -href {string} The link to the actual page
+//   -details {string[]} An array of relevant details pertaining to the project's
+//    development
+//   -techStack {string[]} An array of the most important languages/tech used 
+//    to develop the project
 const projects = [
     {
         id: 1,

@@ -8,6 +8,10 @@ import logoImg from "../assets/personal-logo.png"
 
 import "./Header.css"
 
+/**
+ * @returns {ReactElement} The header of the website that displays 
+ * the site logo and a marquee of lyrics I enjoy
+ */
 function Header() {
     return (
         <header>
