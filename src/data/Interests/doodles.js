@@ -1,5 +1,7 @@
 import spranneImg from "../../assets/gallery/spranne.PNG"
 import kingImg from "../../assets/gallery/king.png"
+import chunksImg from "../../assets/gallery/chunks.png"
+import azifImg from "../../assets/gallery/azif.png"
 
 // A collection of doodles I've made to display in the Interest page's Gallery
 // Each doodle object contains:
@@ -13,7 +15,15 @@ const doodles = [
     {
         src: kingImg,
         alt: "A drawing of King from 'The Owl House' saying 'Ayo!'"
-    }
+    },
+    {
+        src: chunksImg,
+        alt: "A Ysoki rogue from a Pathfinder 2e campaign"
+    },
+    {
+        src: azifImg,
+        alt: "A tiefling bard from a DND 5e campaign"
+    },
 ];
 
 export default doodles;
