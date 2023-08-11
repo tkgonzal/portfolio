@@ -20,6 +20,7 @@ main {
 /* Misc. Elements */
 .title {
   padding-left: .5rem;
+  font-weight: bold;
   border: 1px dotted red;
 }
 

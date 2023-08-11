@@ -13,6 +13,7 @@
     font-weight: 700;
     display: inline-block;
     padding: .3rem 0rem;
+    cursor: default;
 }
 
 .lyrics-marquee p {
