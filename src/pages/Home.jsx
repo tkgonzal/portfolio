@@ -7,6 +7,11 @@ import projectsHoverImg from "../assets/portfolio-link-assets/projects-hover.png
 
 import "./Home.css"
 
+/**
+ * @returns {Home} The Home page which essentially acts as the website's landing page.
+ * Contains PortfolioLinks to direct users to the most important parts of the website
+ * along with some short information regarding my thoughts on the portfolio itself
+ */
 function Home() {
     return (
         <>

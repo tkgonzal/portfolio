@@ -8,6 +8,11 @@ import portraitImg from "../assets/portrait.jpg"
 
 import "./About.css"
 
+/**
+ * @returns {ReactComponent} Details the main beats about me as well as my
+ * fullstack developer proficiencies and background. Also links to my pertinent
+ * social media
+ */
 function About() {
     return (
         <>

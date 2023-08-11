@@ -49,11 +49,6 @@
     text-decoration: underline;
 }
 
-/* To put space between each row of album titles */
-.topsters--album-titles li:nth-child(2) {
-    margin-bottom: 1rem;
-}
-
 /* Medium Screen Breakpoint */
 @media (max-width: 800px) {
     .topsters--album-imgs {

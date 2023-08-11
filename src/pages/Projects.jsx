@@ -4,7 +4,13 @@ import projects from "../data/Projects/projects.js"
 
 import "./Projects.css"
 
+/**
+ * @returns {ReactComponent} The page content for the Projects page,
+ * which displays all projects I'm interested in showing off on my 
+ * portfolio
+ */
 function Projects() {
+    // The meat of the page, containing each project's pertinent info
     const projectEntries = projects.map(project => 
         <ProjectEntry 
             key={project.id}
@@ -12,6 +18,7 @@ function Projects() {
         />    
     )
 
+    // The links to each ProjectEntry for the Table of Contents
     const projectDirectoryContent = projects.map(project =>
         <li
             key={project.id}

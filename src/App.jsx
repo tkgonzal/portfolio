@@ -13,9 +13,14 @@ import Credits from "./pages/Credits.jsx"
 
 import "./App.css"
 
+/**
+ * @returns {ReactComponent} The content for the website
+ */
 function App() {
   const location = useLocation()
 
+  // Determines the page title (used for the page content div)
+  // Using the site path
   const getPageTitle = () => {
     const path = location.pathname
 

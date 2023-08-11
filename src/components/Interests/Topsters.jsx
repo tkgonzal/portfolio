@@ -3,7 +3,8 @@ import "./Topsters.css"
 /**
  * Based on the Topsters, a popular format for people to share sets of 
  * albums they enjoy, this is an interactive Topsters that displays my
- * current rotation of music and 
+ * current rotation of music and allows the user to click on the albums
+ * to bring up websites they can listen to them
  * @param {Object} props A props object containing
  * -albums {Object[]} Am array of albums objects with the structure of
  *      -id {Number} A number to specify for id (as if the data was from a db)
@@ -39,8 +40,13 @@ function Topsters({ albums }) {
         </a>
     )
 
-    const albumTitles = albums.map(album => 
-        <li key={album.id}>
+    const albumTitles = albums.map((album, index) => 
+        <li
+            key={album.id}
+            // Used to put space between each title such that titles for a
+            // specific row are grouped together
+            style={{ marginBottom: (index - 1) % COLS === 0 ? "1rem" : "0" }}
+        >
             <a
                 href={album.href}
                 target="_blank"

@@ -8,6 +8,11 @@ import keebImg from "../assets/keeb-daily-driver.jpg"
 
 import "./Interests.css"
 
+/**
+ * @returns {ReactComponent} A page full of my interests. Sort of an offshoot
+ * of the About page, but with more casual informatino about me. Used to 
+ * tell more about myself and display a bit more of my frontend chops.
+ */
 function Interests() {
     return (
         <>

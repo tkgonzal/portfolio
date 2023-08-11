@@ -1,3 +1,6 @@
+/**
+ * @returns {ReactComoponent} Credits for assets used for the site
+ */
 function Credits() {
     return (
         <>
