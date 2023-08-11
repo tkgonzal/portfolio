@@ -4,7 +4,9 @@ const lyrics = [
     "Slip like Freudian, Your first and last step to playing yourself like accordian",
     "The ocean washed open your grave",
     "These sweet instincts, ruin my life",
-    "Do you really want it all if it's all mediocre?"
+    "Do you want it all if it's all mediocre?",
+    "Believe it or not, you won't find it so hot, if you ain't got the do-re-mi!",
+    "Don't rely on the strength of my image"
 ];
 
 export default lyrics;

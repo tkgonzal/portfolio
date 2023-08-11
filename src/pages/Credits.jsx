@@ -8,8 +8,8 @@ function Credits() {
             <p>
                 This portfolio was all coded by me, and a majority
                 of the assets were also made by yours truly, but for
-                the few things I didn't take, I'd like to give proper
-                thanks
+                the few things I didn't make, I'd like to give proper
+                thanks.
             </p>
 
             <h2>Interests</h2>
