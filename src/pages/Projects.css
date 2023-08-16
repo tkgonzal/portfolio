@@ -12,7 +12,7 @@
 }
 
 .projects--table-of-contents {
-    outline: 0.0625rem dotted red;
+    outline: var(--outline-style);
     padding: .5rem;
 }
 

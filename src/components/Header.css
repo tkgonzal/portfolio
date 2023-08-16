@@ -1,10 +1,13 @@
 header {
     width: 100%;
-    outline: 1px dotted red;
+    outline: var(--outline-style);
     padding: .3rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(../assets/minami-ku.JPG);
+    background-position: center;
+    background-size: 100% auto;
 }
 
 /* The Link container for the logo */

@@ -1,11 +1,13 @@
 nav {
-    outline: 1px dotted red;
+    outline: var(--outline-style);
     width: 25%;
     margin: .5rem;
+    background-color: var(--primary-bg-color, white);
 }
 
 .nav--links, .nav--about-links {
     padding-left: 1.4rem;
+    list-style: square;
 }
 
 .nav--links li {

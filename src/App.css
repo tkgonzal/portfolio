@@ -1,3 +1,8 @@
+:root {
+  --primary-bg-color: #ffffff;
+  --outline-style: 0.0625rem solid #db4b26;
+}
+
 .container {
   width: 60vw;
   /* border: 1px dotted red; */
@@ -14,14 +19,15 @@
 main {
   width: 75%;
   margin: .5rem;
-  outline: 1px dotted red;
+  outline: var(--outline-style);
+  background-color: var(--primary-bg-color, white);
 }
 
 /* Misc. Elements */
 .title {
   padding-left: .5rem;
   font-weight: bold;
-  border: 1px dotted red;
+  outline: var(--outline-style);
 }
 
 /* Large Screen Breakpoint */

@@ -1,7 +1,8 @@
 footer {
     width: 100%;
-    outline: 1px dotted red;
+    outline: var(--outline-style);
     padding: .3rem 0rem;
+    background-color: var(--primary-bg-color, white);
 }
 
 .footer--credit {

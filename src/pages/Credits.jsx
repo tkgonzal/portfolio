@@ -14,6 +14,14 @@ function Credits() {
                 thanks.
             </p>
 
+            <h2 className="credits--header">Background Image</h2>
+            <p className="credits--blurb">
+                The image used for the background is a repeating tile of a cloudy, starry night
+                from tumblr user <a
+                    target="_blank"
+                    href="https://www.tumblr.com/pleeping/47045018500">pleeping</a>.
+            </p>
+
             <h2 className="credits--header">Interests</h2>
             <p className="credits--blurb">
                 The design for the display of my current music
