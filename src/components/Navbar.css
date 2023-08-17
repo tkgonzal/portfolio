@@ -1,10 +1,11 @@
 nav {
     outline: var(--outline-style);
-    width: 15%;
+    width: 25%;
     margin: .5rem;
     background-color: var(--primary-bg-color, white);
     align-self: start;
     position: sticky;
+    flex: 1;
     top: .5rem;
 }
 
@@ -25,6 +26,14 @@ nav {
     }
 }
 
+/* Medium Screen Breakpoint */
+@media (max-width: 800px) {
+    .nav--about-links {
+        padding-left: 0.5rem;
+    }
+}
+
+/* Small/Mobile Screen Breakpoint */
 @media (max-width: 610px) {
     nav {
         width: 100%;

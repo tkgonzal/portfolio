@@ -36,3 +36,7 @@ h1, h6 {
 p {
     margin-top: .3rem;
 }
+
+a:hover {
+    font-weight: bold;
+}

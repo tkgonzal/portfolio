@@ -19,7 +19,7 @@
 }
 
 main {
-  width: 85%;
+  width: 75%;
   margin: .5rem;
   outline: var(--outline-style);
   background-color: var(--primary-bg-color, white);
