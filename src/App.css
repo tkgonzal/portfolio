@@ -6,7 +6,7 @@
 }
 
 .container {
-  width: 60vw;
+  width: 75vw;
   /* border: 1px dotted red; */
 }
 
@@ -19,7 +19,7 @@
 }
 
 main {
-  width: 88%;
+  width: 85%;
   margin: .5rem;
   outline: var(--outline-style);
   background-color: var(--primary-bg-color, white);
@@ -41,7 +41,7 @@ main {
   }
 
   main {
-    width: 80%;
+    width: 75%;
   }
 }
 

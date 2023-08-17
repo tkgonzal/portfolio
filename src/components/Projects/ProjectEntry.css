@@ -3,6 +3,10 @@
     align-items: center;
 }
 
+.project-entry:nth-of-type(2n) {
+    flex-direction: row-reverse;
+}
+
 .pe--info h2, .pe--info h3 {
     margin: 0;
 }
