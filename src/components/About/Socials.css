@@ -29,8 +29,8 @@
 } 
 
 .socials-row img:hover {
-    filter: invert(73%) sepia(35%) saturate(665%) 
-        hue-rotate(191deg) brightness(97%) contrast(91%);
+    filter: invert(67%) sepia(88%) saturate(3171%) 
+        hue-rotate(207deg) brightness(99%) contrast(87%);
 }
 
 /* Small/Mobile Breakpoint */

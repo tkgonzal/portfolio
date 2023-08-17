@@ -1,6 +1,8 @@
 :root {
   --primary-bg-color: #ffffff;
-  --outline-style: 0.0625rem solid #db4b26;
+  --outline-style: 0.0625rem solid #dba226;
+  --title-color: #fafafa;
+  --title-gradient: linear-gradient(180deg, #8a8aee 41%, #316fa5 59%)
 }
 
 .container {
@@ -28,6 +30,8 @@ main {
   padding-left: .5rem;
   font-weight: bold;
   outline: var(--outline-style);
+  color: var(--title-color, white);
+  background: var(--title-gradient);
 }
 
 /* Large Screen Breakpoint */

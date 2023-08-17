@@ -1,8 +1,14 @@
+:root {
+    --footer-bg-color: #34368b;
+    --footer-color: #fafafa;
+}
+
 footer {
     width: 100%;
     outline: var(--outline-style);
     padding: .3rem 0rem;
-    background-color: var(--primary-bg-color, white);
+    background: var(--footer-bg-color, blue);
+    color: var(--footer-color, white)
 }
 
 .footer--credit {
