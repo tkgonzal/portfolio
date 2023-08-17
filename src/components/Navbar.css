@@ -1,6 +1,6 @@
 nav {
     outline: var(--outline-style);
-    width: 25%;
+    width: 20%;
     margin: .5rem;
     background-color: var(--primary-bg-color, white);
 }
@@ -13,6 +13,13 @@ nav {
 .nav--links li {
     padding-left: 0;
     white-space: nowrap;
+}
+
+/* Large Screen Breakpoint */
+@media (max-width: 1080px) {
+    nav {
+        width: 25%;
+    }
 }
 
 @media (max-width: 610px) {

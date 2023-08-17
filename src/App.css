@@ -19,7 +19,7 @@
 }
 
 main {
-  width: 75%;
+  width: 88%;
   margin: .5rem;
   outline: var(--outline-style);
   background-color: var(--primary-bg-color, white);
@@ -38,6 +38,10 @@ main {
 @media (max-width: 1080px) {
   .container {
     width: 80vw;
+  }
+
+  main {
+    width: 80%;
   }
 }
 
