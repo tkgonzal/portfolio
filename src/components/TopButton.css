@@ -21,7 +21,7 @@
      * container. (See App.css for these specific sizes at the various
      * breakpoints)
      */
-    right: calc(12.5% - var(--top-btn-offset));
+    right: calc(17.5% - var(--top-btn-offset));
     /* 
      * Bottom implemented in component file as an exercise in using useRef to make
      * the component exhibit sticky position behaviour while still applying
