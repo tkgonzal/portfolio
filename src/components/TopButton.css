@@ -17,11 +17,11 @@
     border-radius: .3rem;
     position: fixed;
     /* 
-     * Right attribute determined by space consumed by the site's main
+     * left attribute determined by space consumed by the site's main
      * container. (See App.css for these specific sizes at the various
      * breakpoints)
      */
-    right: calc(17.5% - var(--top-btn-offset));
+    left: calc(20% - var(--top-btn-offset));
     /* 
      * Bottom implemented in component file as an exercise in using useRef to make
      * the component exhibit sticky position behaviour while still applying
@@ -33,18 +33,19 @@
 .top-btn:hover {
     opacity: 1;
     font-weight: 900;
+    font-style: normal;
 }
 
 /* Large Screen Breakpoint */
 @media (max-width: 1080px) {
     .top-btn {
-        right: calc(10% - var(--top-btn-offset));
+        left: calc(10% - var(--top-btn-offset));
     }
 }
 
 /* Small/Mobile Breakpoint */
 @media (max-width: 610px) {
     .top-btn {
-        right: 1rem;
+        left: 1rem;
     }
 }
