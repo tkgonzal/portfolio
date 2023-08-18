@@ -30,7 +30,7 @@ const projects = [
         subtitle: "A playlist aggregator",
         description: `An app that allows the user to listen to their Spotify
             playlists and custom playlists made of their own local audio 
-            files in one place`,
+            files in one place.`,
         demoImg: echoBoxDemoImg,
         links: [
             {
@@ -39,12 +39,12 @@ const projects = [
             },
         ],
         details: [
-            "Implemented the primary UI for the library and playlists",
+            "Implemented the primary UI for the library and playlist interaction",
             "Set up and developed a good chunk of the main context for managing the state of the app's library and player",
             "Added mobile/screen size responsivity",
             "Incorporated the primary packages for playing audio into the app",
             "Implemented equalizer and volume control logic",
-            "Integrated most of the custom player and audio control logic with the UI",
+            "Integrated the custom player and audio control logic",
             "Debugged and tweaked miscellaneous components all throughout the app to improve the UI/UX",
             "Designed logo image and favicon"
         ],
@@ -70,7 +70,7 @@ const projects = [
             },
         ],
         details: [
-            "Designed a multi-media backlog organizer in Python for individualized self-recording of media consumption progres (e.g. reading books, watching movies)",
+            "Designed a multi-media backlog organizer in Python for individualized self-recording of media consumption progress (e.g. reading books, watching movies, collecting vinyl)",
             "Implemented a GUI with tools from the tkinter library to improve program's usability",
             "Streamlined process of documenting progress in different media, greatly improving management of media consumption"
         ],
@@ -84,9 +84,9 @@ const projects = [
         slug: "pathfinder-tools",
         title: "Pathfinder Tools",
         subtitle: "Tools to Make Game Mastery Easy",
-        description: `A website providing users tools to assist in playing the game
-            Pathfinder 2e. A current WIP, currently only has a tool for encounter
-            calculation`,
+        description: `A website providing users tools for playing the game
+            Pathfinder 2e. A work in progress, currently only has a tool for encounter
+            calculation.`,
         demoImg: pathfinderToolsDemoImg,
         links: [
             {
@@ -99,10 +99,10 @@ const projects = [
             },
         ],
         details: [
-            "Designed and created a landing page for the site to better ease users into utilizing it",
-            "Constructed and implemented an Encounter Calculator tool for the app, using a variation of the Knapsack algorithm to calculate all possible enemy compositions given a set of constraints for an encounter",
+            "Designed and implemented landing page for the site to better explain and market the site",
+            "Constructed an Encounter Calculator tool for the app, using a variation of the Knapsack algorithm to calculate all possible enemy compositions given a set of constraints for an encounter",
             "Implemented app using React.js for the state and logic management of the Encounter Calculator tool",
-            "Integrated React-Router into the app for ease of linkage between the landing page and the Encounter Calculator",
+            "Integrated React-Router to structure the site as functionally multi-page",
             "Designed site logo, favicon, and enemy danger icons on Encounter Calculator"
         ],
         techStack: [
@@ -117,10 +117,11 @@ const projects = [
         title: "Shiritori",
         subtitle: "An English variant of the Japanese word game",
         description: `A command line implementation of an English variant of the 
-            Japanese word game Shiritori, wherein players take turns saying a word that
+            Japanese word game Shiritori, where players take turns saying a word that
             starts with the letter of the last word said. If a player fails to say a 
-            real word that conforms to this rule on time, they're eliminated. The 
-            last player standing is the winner.`,
+            real word that conforms to this rule within a time limit, they're eliminated.
+            And if a player says a word that's already been said whilst palying the game, 
+            they're eliminated. The last player standing is the winner.`,
         demoImg: shiritoriDemoImg,
         links: [
             {
@@ -129,8 +130,9 @@ const projects = [
             }
         ],
         details: [
-            "Implemented a command line program that runs an English variant of the Japanese word game Shiritori",
-            "Utilized polymorphism and the binary search algorithm to set up and maintain game structure, demonstrating an understanding of data structure and algortihm concepts through application"
+            "Designed various data structures to handle logic of running the game, employing polymorphism to make similarly structured classes handle separate and distinct functionality",
+            "Utilized the binary search algorithm to set up game data and process played words, demonstrating an understanding of algortihm concepts through application",
+            "Implemented game through the command line using various standard C++ I/O libraries, exhibiting proficiency with input handling"
         ],
         techStack: [
             "C++"
@@ -143,8 +145,8 @@ const projects = [
         subtitle: "A simple operating system simulator",
         description: `A rudimentary OS simulator meant to demonstrate an 
             asynchronous, multi-threaded solution to the readers-writers
-            problem. App launches using a command line prompt with args
-            specifying a set of USER files to consider at runtime, and
+            problem. App launches using a command line prompt with arguments
+            specifying a set of USER files to process at runtime, and
             a specified amount of disks and printers to consider for the
             simulation. Built for Final Project for UCI's CS 141: Concepts in
             Programming Languages course.`,

@@ -92,8 +92,8 @@ function About() {
                 </li>
                 <li>
                     Communicated and advised with applicants to Bay Valley Tech
-                    in order to improve company outreach and provide assistance
-                    as needed
+                    in order to improve company outreach and provide newcomer
+                    assistance
                 </li>
             </ul>
 

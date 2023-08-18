@@ -25,7 +25,7 @@ function Interests() {
 
             <h2 className="interests--header">Music</h2>
             <p className="interests--blurb">
-                Music is probably the thing I'm most invested in. I try to
+                Music is one of the hobbies I'm most invested in. I try to
                 listen to a lot of music but my favourite genres are Hip-Hop 
                 and Midwest Emo. Some of my favourite artists include JPEGMAFIA,
                 mom jeans., 100 Gecs, and D'Angelo. Check out my current 

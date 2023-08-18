@@ -47,8 +47,8 @@ function Home() {
                 namely how sites were designed around that time. I have a fondness
                 for the style of early anime and video game blogs and fan forums, 
                 so this portfolio is my attempt at trying to achieve that 
-                look using modern front end techniques, namely with React and 
-                React-Router.
+                look using modern front end techniques and technologies, namely 
+                with React and React-Router.
             </p>
         </>
     )

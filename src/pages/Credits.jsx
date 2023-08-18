@@ -10,8 +10,8 @@ function Credits() {
             <p>
                 This portfolio was all coded by me, and a majority
                 of the assets were also made by yours truly, but for
-                the few things I didn't make, I'd like to give proper
-                thanks.
+                the few things I didn't make, I'd like to give credit
+                and thanks.
             </p>
 
             <h2 className="credits--header">Background Image</h2>
@@ -20,6 +20,14 @@ function Credits() {
                 from tumblr user <a
                     target="_blank"
                     href="https://www.tumblr.com/pleeping/47045018500">pleeping</a>.
+            </p>
+
+            <h2 className="credits--header">About</h2>
+            <p className="credits--blurb">
+                My portrait on the about page was made on a <a
+                    href="https://picrew.me/en/image_maker/1322863"
+                    target="_blank"
+                >Picrew</a> made by tumblr user pepperjackets.
             </p>
 
             <h2 className="credits--header">Interests</h2>
@@ -39,7 +47,7 @@ function Credits() {
                     is pulled from Tumblr user <a 
                         href="https://www.tumblr.com/dizzy-lights/724850595343876096/i-promised-so-i-shall-deliver-the-other-phantom"
                         target="_blank"
-                    >dizzy-light</a>'s blog
+                    >dizzy-light</a>'s blog.
                 </li>
             </ul>
         </>
