@@ -1,7 +1,7 @@
-import echoBoxDemoImg from "../../assets/projects/echobox-demo-img.png";
-import billyDemoImg from "../../assets/projects/billy-demo-img.png";
-import shiritoriDemoImg from "../../assets/projects/shiritori-demo-img.png";
-import os141DemoImg from "../../assets/projects/141os-demo-img.png";
+import echoBoxDemoImg from "../../assets/projects/echobox-demo-img.PNG";
+import billyDemoImg from "../../assets/projects/billy-demo-img.PNG";
+import shiritoriDemoImg from "../../assets/projects/shiritori-demo-img.PNG";
+import os141DemoImg from "../../assets/projects/141os-demo-img.PNG";
 import pathfinderToolsDemoImg from "../../assets/projects/pathfinder-tools-demo-img.png";
 
 // An array of information regarding projects I want to display on my portfolio.
