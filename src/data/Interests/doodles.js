@@ -1,4 +1,4 @@
-import spranneImg from "../../assets/gallery/spranne.PNG"
+import spranneImg from "../../assets/gallery/spranne.png"
 import kingImg from "../../assets/gallery/king.png"
 import chunksImg from "../../assets/gallery/chunks.png"
 import azifImg from "../../assets/gallery/azif.png"
