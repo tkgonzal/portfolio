@@ -1,8 +1,6 @@
-/* :root {
-    --lg-screen-sz: 992px;
-    --md-screen-sz: 768px;
-    --sm-screen-sz: 576px;
-} */
+:root {
+    --background-colour: #282957;
+}
 
 html {
     margin: 0;
@@ -13,6 +11,7 @@ body {
     margin: 0;
     font-family: "MS Gothic", "Gothic A1", sans-serif;
     background-image: url(./assets/stars-and-clouds.jpg);
+    background-color: var(--background-colour, navy);
     background-size: auto 100vh;
     background-repeat: repeat-x;
 }
