@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { Route, Routes, useLocation } from "react-router-dom"
 
 import Header from "./components/Header.jsx"
@@ -19,8 +20,26 @@ import "./App.css"
 function App() {
   const location = useLocation()
 
-  // Determines the page title (used for the page content div)
-  // Using the site path
+  useEffect(() => {
+    window.addEventListener("scroll", updateBackgroundPosition)
+
+    return () => window.removeEventListener("scroll", updateBackgroundPosition)
+  }, [])
+ 
+  /**
+   * Replicates the behaviour of the CSS property "background-attachment: 
+   * fixed" on the body's main background. Done to accomodate mobile Safari's
+   * lack of support for this property.
+   */
+  const updateBackgroundPosition = () => {
+    document.body.style.backgroundPosition = `center ${window.scrollY}px`
+  }
+
+  /**
+   * Determines the page title (used for the page content div)
+   * Using the site path
+   * @returns {string} The title text to use for the current route
+   */
   const getPageTitle = () => {
     const path = location.pathname
 
@@ -54,7 +73,6 @@ function App() {
         </main>
       </div>
       <Footer />
-      
       <TopButton />
     </div>
   )
