@@ -81,19 +81,19 @@ function About() {
             </span>
             <ul className="about--bullet-points">
                 <li>
-                    Worked in a team to develop several web applications 
-                    using the MERN stack, heavily utilizing React and Node.js
-                    to create efficient and user friendly programs
+                    Worked in a team to develop several web applications, 
+                    heavily utilizing React, Node.js, Express, and SQL
+                    to create efficient and user friendly programs.
                 </li>
                 <li>
                     Applied Agile Methodology in work with Trello and 
                     GitHub Projects to streamline team's development
-                    process
+                    process.
                 </li>
                 <li>
                     Communicated and advised with applicants to Bay Valley Tech
                     in order to improve company outreach and provide newcomer
-                    assistance
+                    assistance.
                 </li>
             </ul>
 

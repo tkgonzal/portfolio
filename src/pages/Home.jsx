@@ -19,7 +19,7 @@ function Home() {
             <p className="home--blurb">
                 Welcome to my home grown, farm to table, DIY portfolio site.
                 Take a look around to learn more about me and some of the 
-                programming work I've done. Check out the source 
+                programming work I've done. You can check out the source code
                 code <a 
                     href="https://github.com/tkgonzal/portfolio"
                     target="_blank"
