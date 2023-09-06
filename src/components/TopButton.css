@@ -30,6 +30,10 @@
     /* bottom: 1rem; */
 }
 
+.top-btn:visited {
+    color: var(--top-btn-color, white);
+}
+
 .top-btn:hover {
     opacity: 1;
     font-weight: 900;
