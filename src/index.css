@@ -1,5 +1,6 @@
 :root {
     --background-colour: #282957;
+    --link-colour: #0079f2;
 }
 
 html {
@@ -37,4 +38,8 @@ p {
 
 a:hover {
     font-style: italic;
+}
+
+a, a:visited {
+    color: var(--link-colour, blue);
 }
