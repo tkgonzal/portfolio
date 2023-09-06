@@ -39,7 +39,8 @@
     font-size: .65rem;
 }
 
-.topsters--album-titles a {
+.topsters--album-titles a,
+.topsters--album-titles a:visited {
     color: var(--topsters-text-color, white);
     text-decoration: none;
     margin: .5rem 0;
