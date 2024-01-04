@@ -3,6 +3,7 @@ import billyDemoImg from "../../assets/projects/billy-demo-img.PNG";
 import shiritoriDemoImg from "../../assets/projects/shiritori-demo-img.PNG";
 import os141DemoImg from "../../assets/projects/141os-demo-img.PNG";
 import pathfinderToolsDemoImg from "../../assets/projects/pathfinder-tools-demo-img.png";
+import moNewsDemoImg from "../../assets/projects/mo-news-demo-img.PNG";
 
 // An array of information regarding projects I want to display on my portfolio.
 // Each project object contains
@@ -23,6 +24,46 @@ import pathfinderToolsDemoImg from "../../assets/projects/pathfinder-tools-demo-
 //   -techStack {string[]} An array of the most important languages/tech used 
 //    to develop the project
 const projects = [
+    {
+        id: 0,
+        slug: "mo-news",
+        title: "MoNews",
+        subtitle: "A local news aggregator",
+        description: `A web app that aggregates articles from various news outlets
+            in the valley. Allows users to read and comment on articles and
+            subscribe to personalized newsletters. Also allows businesses to 
+            manage users, post and edit articles, and toggle comment notifications 
+            for their articles on the app.`,
+        demoImg: moNewsDemoImg,
+        links: [
+            {
+                text: "GitHub",
+                href: "https://github.com/tkgonzal/local-news-web-app"
+            },
+            {
+                text: "Site",
+                href: "https://mo-news.vercel.app/"
+            },
+            {
+                text: "Demo",
+                href: "https://drive.google.com/file/d/13Dbsp6bn_fxz3gkEtyBcMtpgnqoTuQR5/view?usp=sharing"
+            },
+        ],
+        details: [
+            "Led project development, establishing divisions of work and managing work sprints using agile methodology with Trello, Google Suite Apps, and GitHub Projects",
+            "Defined pages, components, and state and server logic for Breaking News/Landing Page and Business Panel pages",
+            "Refactored and debugged app authentication pages, navbar, and Subscription page post corresponding team members' departure from development",
+            "Implemented server and state logic to manage newsletter subscriptions and comment notifications",
+            "Created a TypeScript script that utilizes node-cron to emulate pseudo cron-jobs to send out newsletter subscriptions and comment notifications"
+        ],
+        techStack: [
+            "TypeScript",
+            "MongoDB",
+            "Express",
+            "React.js",
+            "Node.js"
+        ]
+    },
     {
         id: 1,
         slug: "echobox",
