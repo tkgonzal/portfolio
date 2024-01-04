@@ -44,10 +44,6 @@ const projects = [
                 text: "Site",
                 href: "https://mo-news.vercel.app/"
             },
-            {
-                text: "Demo",
-                href: "https://drive.google.com/file/d/13Dbsp6bn_fxz3gkEtyBcMtpgnqoTuQR5/view?usp=sharing"
-            },
         ],
         details: [
             "Led project development, establishing divisions of work and managing work sprints using agile methodology with Trello, Google Suite Apps, and GitHub Projects",
