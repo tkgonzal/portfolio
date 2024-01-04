@@ -1,8 +1,7 @@
-import doubleTrioImg from "../../assets/albums/double-trio.jpg";
-import whitePonyImg from "../../assets/albums/white-pony.jpg";
-import psychokineticLoveSongsImg 
-    from "../../assets/albums/psychokinetic-love-songs.jpg";
-import blackMessiahImg from "../../assets/albums/black-messiah.jpg";
+import anthologyImg from "../../assets/albums/anthology.JPG";
+import aGreatChaosImg from "../../assets/albums/a-great-chaos.JPG";
+import getGoodImg from "../../assets/albums/get-good.JPG";
+import diamondEyesImg from "../../assets/albums/diamond-eyes.JPG";
 
 // Albums to display for the topster element
 // Each album object is structured with the following members:
@@ -14,31 +13,31 @@ import blackMessiahImg from "../../assets/albums/black-messiah.jpg";
 const albums = [
     {
         id: 0,
-        imgSrc: doubleTrioImg,
-        title: "Double Trio",
-        artist: "By Storm",
-        href: "https://injuryreserve.bandcamp.com/track/double-trio"
+        imgSrc: anthologyImg,
+        title: "Anthology",
+        artist: "Worst Party Ever",
+        href: "https://worstpartyever.bandcamp.com/album/anthology"
     },
     {
         id: 1,
-        imgSrc: whitePonyImg,
-        title: "White Pony",
-        artist: "Deftones",
-        href: "https://www.youtube.com/playlist?list=PLC80P4gsPr-bLGUNpAdxytEsA5y8PUsbL"
+        imgSrc: aGreatChaosImg,
+        title: "A Great Chaos",
+        artist: "Ken Carson",
+        href: "https://www.youtube.com/playlist?list=OLAK5uy_kCutGLcSeZMu2sdx2_a1PXHbUp7-mXHN8"
     },
     {
         id: 2,
-        imgSrc: psychokineticLoveSongsImg,
-        title: "Psychokinetic Love Songs",
-        artist: "Hey, Ily!",
-        href: "https://heyilyband.bandcamp.com/album/psychokinetic-love-songs"
+        imgSrc: getGoodImg,
+        title: "Get Good",
+        artist: "Good Game",
+        href: "https://goodgameband.bandcamp.com/album/get-good"
     },
     {
         id: 3,
-        imgSrc: blackMessiahImg,
-        title: "The Black Messiah",
-        artist: "D'Angelo and The Vanguard",
-        href: "https://www.youtube.com/playlist?list=PLDlzaWMepRBfViKfEfUwg_DZuQF6A4e6l"
+        imgSrc: diamondEyesImg,
+        title: "Diamond Eyes",
+        artist: "Deftones",
+        href: "https://www.youtube.com/playlist?list=OLAK5uy_kxPAqEp09ckqnr4Qje4tkzgz-xbYqVJw4"
     }
 ];
 
