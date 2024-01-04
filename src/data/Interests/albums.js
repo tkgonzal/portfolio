@@ -1,7 +1,7 @@
-import anthologyImg from "../../assets/albums/anthology.JPG";
-import aGreatChaosImg from "../../assets/albums/a-great-chaos.JPG";
-import getGoodImg from "../../assets/albums/get-good.JPG";
-import diamondEyesImg from "../../assets/albums/diamond-eyes.JPG";
+import anthologyImg from "../../assets/albums/anthology.jpg";
+import aGreatChaosImg from "../../assets/albums/a-great-chaos.jpg";
+import getGoodImg from "../../assets/albums/get-good.jpg";
+import diamondEyesImg from "../../assets/albums/diamond-eyes.jpg";
 
 // Albums to display for the topster element
 // Each album object is structured with the following members:
