@@ -49,6 +49,7 @@ function About() {
                 <li>C/C++</li>
                 <li>Java</li>
                 <li>JavaScript</li>
+                <li>TypeScript</li>
                 <li>SQL</li>
                 <li>HTML/CSS</li>
             </ul>
@@ -58,6 +59,7 @@ function About() {
                 <li>React</li>
                 <li>React Router</li>
                 <li>Express</li>
+                <li>MongoDB</li>
                 <li>Bootstrap</li>
                 <li>Git/GitHub</li>
                 <li>Windows</li>
@@ -66,6 +68,7 @@ function About() {
             <h3 className="about--subheader">Soft Skills</h3>
             <ul className="about--skills">
                 <li>Teamwork</li>
+                <li>Leadership</li>
                 <li>Communication</li>
                 <li>Pair Programming</li>
                 <li>Adept Learning</li>
@@ -75,20 +78,20 @@ function About() {
             <h2 className="about--header">Experience</h2>
             <span className="about--name-date">
                 <h3 className="about--subheader">
-                    Bay Valley Tech, Web Development Intern
+                    Bay Valley Tech, Full Stack Development Intern
                 </h3>
-                <em><span className="date">Apr 2023</span> - Pres</em>
+                <em>Apr - <span className="date">Dec 2023</span></em>
             </span>
             <ul className="about--bullet-points">
                 <li>
                     Worked in a team to develop several web applications, 
-                    heavily utilizing React, Node.js, Express, and SQL
+                    heavily utilizing React, Node.js, Express, and MongoDB
                     to create efficient and user friendly programs.
                 </li>
                 <li>
                     Applied Agile Methodology in work with Trello and 
-                    GitHub Projects to streamline team's development
-                    process.
+                    GitHub Projects as a team member and project lead to 
+                    streamline team's development process.
                 </li>
                 <li>
                     Communicated and advised with applicants to Bay Valley Tech
